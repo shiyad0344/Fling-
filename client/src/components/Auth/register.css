@@ -1,0 +1,120 @@
+.reg{
+    background-color: #fafafa;
+}
+    
+    
+.reg_header{
+    padding: 0.5vw;
+    padding-left: 43vw;
+    border-bottom: 1px solid lightgrey;
+    
+    object-fit: contain;
+    align-content: center;
+}
+
+
+.reg_heading{
+text-align: center;
+margin-top:3vw;
+font-size: 2rem;
+color: lightslategray;
+font-style: italic;
+
+}
+
+.content{
+    display: flex;
+}
+
+
+.form{
+    margin-left: 7vw;
+    margin-top: 50px;
+    margin-right: 7vw;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 200%;
+      
+   
+    
+}
+
+.prof_display{
+  position: relative;
+  background-color: #fff;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  max-width: 85vw;
+  height: 25vh;
+  /* box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3); */
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .signup {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .prof{
+      flex: 1;
+     
+      padding: 20px;
+    
+  }
+
+  .files{
+    display: none;
+  }
+
+  .file{
+    cursor: pointer;
+  }
+
+  #output{
+    width: 200;
+  }
+
+  

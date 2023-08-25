@@ -1,0 +1,23 @@
+.feed{
+    background-color: #fafafa; 
+    display: flex;
+}
+     
+.postForm{
+    float: right;
+    margin-top: 100px;  
+    margin-left: 400px;
+}
+     
+.posts {
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.feed_header {
+   background-color: white;
+   padding: 20px;
+   border-bottom: 1px solid lightgray;
+   object-fit: contain;
+   align-content: center;
+}
